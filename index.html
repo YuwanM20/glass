@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="css/aos.css" rel="stylesheet">
+
+    <style>
+      /* loading */
+
+      .loading {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+      }
+
+      .putaran {
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          box-shadow: #8c99cf 3px 3px 4px 0px, #b6c0ee -3px -3px 2px 0px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .load {
+          width: 60px;
+          height: 60px;
+          border-radius: 10px;
+          background-color: #a4b0e3;
+          box-shadow: #8c99cf 3px 3px 4px 0px inset, #b6c0ee -3px -3px 2px 0px inset;
+          animation: spin 5s linear infinite;
+      }
+    </style>
+
+    <title>Yuwandana</title>
+  </head>
+  <body data-spy="scroll" data-target="#scroll-ku" data-offset="1">
+
+    <div class="loading" id="loading">
+      <div class="putaran">
+          <div class="load"></div>
+      </div>
+    </div>
+
+    <div class="sc" id="content">
+      <!-- effect -->
+    <div class="effect-wrap">
+      <div class="effect effect-1">
+      </div>
+
+      <div class="effect effect-2">
+      </div>
+
+      <div class="effect effect-3">
+      </div>
+
+      <div class="effect effect-4">
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+      </div>
+
+      <div class="effect effect-5">
+        <div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div>
+      </div>
+    </div>
+    <!-- end-effect -->
+
+      <div class="menu" id="menu">
+        <div class="tombol" id="set">
+          <i class="fas fa-cog fa-2x "></i>
+        </div>
+        <div class="tombol2" id="kembali">
+          <i class="fas fa-angle-right fa-2x "></i>
+        </div>
+        <div class="isi-nav" id="set-nav">
+          <label class="" for="darkSwitch">
+            <div class="bulat">
+              <i class="fas fa-sun"></i>
+            </div>
+          </label>
+          <div class="bulat open" id="open-button">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="bulat cls" id="close-navbar">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+      </div>
+    <!-- </label> -->
+
+    <div class="jumbotron body-jumbotron">
+        <div class="container">
+        <div class="pad" id="pad">
+          <div class="menuhidden" id="menuhidden">
+            <a href="#home"><i class="fas fa-home "></i></a>
+            <a href="#about"><i class="fas fa-user-cog"></i></a>
+            <a href="#portofolio"><i class="fas fa-images"></i></a>
+            <a href="#blog"><i class="fas fa-books"></i></a>
+            <a href="#contact"><i class="fas fa-phone"></i></a>
+          </div>
+        </div>
+            <div class="row content">
+                <div class="col-sm-9">
+
+                    <!-- home -->
+                    <div class="jumbotron jumbotron-fluid content-jumbotron" id="home">
+                        <div class="content-home" data-aos="fade-down">
+                          <h1>Yuwan Dana</h1>
+                          <p style="color:#fcedd6;">FrontEnd & BackEnd Dev</p>
+                          <div class="social">
+                            <a href="https://www.instagram.com/ahshoootyuwan/"><i class="fab fa-facebook "></i></a>
+                            <a href="https://www.instagram.com/ahshoootyuwan/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/ahshoootyuwan/"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/ahshoootyuwan/"><i class="fab fa-github"></i></a>
+                          </div>
+                          <div class="garis">
+                            <div class="isi"></div>
+                          </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- about -->
+                    <div class="jumbotron jumbotron-fluid content-jumbotron" id="about">
+                        <div class="content-about">
+                          <div class="container">
+                            <h5 class="title">ABOUT ME</h5>
+                            <div class="garis">
+                            <div class="isi"></div>
+                            </div>
+                              <div class="text">
+                                <h1>Yuwandana.</h1>
+                                <p class="front">FrontEnd & BackEnd Dev</p>
+                                <div class="row">
+                                  <div class="col-sm-6">
+                                    <p>Halo! Saya Yuwandana, seorang pengembang web yang mengkhususkan diri dalam penggunaan HTML, CSS, Laravel, dan JavaScript. Saya memiliki keahlian dalam menciptakan antarmuka pengguna menarik dan responsif menggunakan HTML dan CSS. Saya juga mahir dalam memanfaatkan framework Laravel untuk mengembangkan aplikasi web backend.</p>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <p>Selain itu, saya memiliki pengetahuan yang kuat dalam penggunaan JavaScript untuk memberikan interaksi dan fungsionalitas tambahan pada situs web. Dengan kombinasi keempat elemen ini, saya siap membantu Anda dalam menciptakan dan mengembangkan situs web yang berkualitas tinggi.</p>
+                                  </div>
+                                </div>
+
+                                <div class="row">
+                                  <div class="col-sm-6">
+                                    <div class="border-card">
+                                      <div class="card">
+                                        <div class="card-body">
+                                          <h5><b>Name</b> : Yuwandana</h5>
+                                          <h5><b>Birth</b>  : 12-08-2023</h5>
+                                          <h5><b>City</b> : Bondowoso</h5>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <div class="border-card">
+                                      <div class="card">
+                                        <div class="card-body">
+                                          <h5><b>Email</b> : ahshootyuwan@gmail</h5>
+                                          <h5><b>Phone</b>  : +62856078438**</h5>
+                                          <h5><b>Status</b> : Jomvlo</h5>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                                <h5 class="title">MY SKILL</h5>
+                                  <div class="garis">
+                                  <div class="isi"></div>
+                                </div>
+                                <div class="skill">
+                                  <h5 class="name-skil">Desain</h5>
+                                  <div class="value-garis">
+                                    <div class="value" id="Desain"></div>
+                                  </div>
+                                  <h5 class="name-skil">HTML-CSS</h5>
+                                  <div class="value-garis">
+                                    <div class="value" id="html"></div>
+                                  </div>
+                                  <h5 class="name-skil">JAVASCRIPT</h5>
+                                  <div class="value-garis">
+                                    <div class="value" id="js"></div>
+                                  </div>
+                                  <h5 class="name-skil">PHP-MYSQL</h5>
+                                  <div class="value-garis">
+                                    <div class="value" id="php"></div>
+                                  </div>
+                                  <h5 class="name-skil">CREATIVE</h5>
+                                  <div class="value-garis">
+                                    <div class="value" id="creative"></div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <!-- portofolio -->
+                    <div class="jumbotron jumbotron-fluid content-jumbotron" id="portofolio">
+                      <div class="content-portofolio">
+                        <div class="container">
+                          <h5 class="title">MY PROJECT</h5>
+                            <div class="garis">
+                            <div class="isi"></div>
+                            </div>
+                            <div class="gambar">
+                              <div class="row">
+                                <div class="col-sm-4">
+                                  <div class="box">
+                                    <img src="img/my/deskcash.png" class="img-fluid">
+                                    <a href="https://modedark7.000webhostapp.com/" class="btn text-center"><i class="fas fa-eye"></i></a>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4">
+                                  <div class="box">
+                                    <img src="img/my/makanan.png" class="img-fluid">
+                                    <a href="https://flowolfv1.000webhostapp.com/" class="btn text-center"><i class="fas fa-eye"></i></a>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4">
+                                  <div class="box">
+                                    <img src="img/my/react.png" class="img-fluid">
+                                    <a href="https://prtfloyuwan.000webhostapp.com/" class="btn text-center"><i class="fas fa-eye"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-4">
+                                  <div class="box">
+                                    <img src="img/my/vaksin.png" class="img-fluid">
+                                    <a href="https://vaksintech.000webhostapp.com/" class="btn text-center"><i class="fas fa-eye"></i></a>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4">
+                                  <div class="box">
+                                    <img src="img/my/ramadhan.png" class="img-fluid">
+                                    <a href="https://puasa23.000webhostapp.com/" class="btn text-center"><i class="fas fa-eye"></i></a>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4">
+                                  <div class="box">
+                                    <img src="img/my/pop.png" class="img-fluid">
+                                    <a href="https://tozero.yuwanbau.repl.co/" class="btn text-center"><i class="fas fa-eye"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="work">
+                              <div class="border-jam">
+                                <div class="jam">
+                                  <div class="hours"></div>
+                                  <div class="menit"></div>
+                                  <div class="detik"></div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- blog -->
+                    <div class="jumbotron jumbotron-fluid content-jumbotron" id="blog">
+                      <div class="content-blog">
+                        <div class="container">
+                          <h5 class="title">BLOG</h5>
+                            <div class="garis">
+                            <div class="isi"></div>
+                            </div>
+                            <h1>NO NEWS</h1>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- contact -->
+                    <div class="jumbotron jumbotron-fluid content-jumbotron" id="contact">
+                      <div class="content-contact">
+                        <div class="container">
+                          <h5 class="title">MAP LOCATION</h5>
+                            <div class="garis">
+                            <div class="isi"></div>
+                            </div>
+                            <div class="maps">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37595.09958577048!2d113.80599419786905!3d-7.926571771429856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6dcdcd94f074d%3A0xe056035859f6e572!2sBondowoso%2C%20Bondowoso%20Regency%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1619514948515!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+
+                            <h5 class="title">MY CONTACT</h5>
+                            <div class="garis">
+                            <div class="isi"></div>
+                            </div>
+
+                            <form action="">
+                              <div class="form-group">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-6">
+                                  <div class="form-group">
+                                    <input type="num" class="form-control" id="exampleFormControlInput1" placeholder="No telp">
+                                  </div>
+                                </div>
+                                <div class="col-sm-6">
+                                  <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                              </div>
+                              <button class="btn text-white">Send Message <i class="fas fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                  <div class="col-sm-3" id="menu-nav">
+                      <div class="jumbotron jumbotron-fluid navbar-jumbotron">
+                          <div class="container text-center">
+                                <img src="img/pfp.png" class="card-img-top rounded-circle" alt="...">
+                            <h1>Yuwandana</h1>
+                            <p>FrontEnd & BackEnd</p>
+
+                            <div class="container">
+                              <nav class="navbar" id="scroll-ku">
+                                <a href="#home" class="btn btn-lg btn-block nav-link">HOME <i class="fas fa-home"></i></a>
+                                <a href="#about" class="btn btn-lg btn-block nav-link">ABOUT <i class="fas fa-user-cog"></i></a>
+                                <a href="#portofolio" class="btn btn-lg btn-block nav-link">PORTOFOLIO <i class="fas fa-images"></i></a> 
+                                <a href="#blog" class="btn btn-lg btn-block nav-link">BLOG <i class="fas fa-books"></i></a>
+                                <a href="#contact" class="btn btn-lg btn-block nav-link">CONTACT <i class="fas fa-phone"></i></a>
+                              </nav>
+                              
+                              <div class="custom-control custom-switch ml-auto" data-toggle="tooltip" data-placement="bottom" title="Mode Gelap">
+                                <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="copyright text-center">
+                          <p>copyright &copy 2023 Yuwandana</p>
+                        </div>
+                  </div>
+              </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="js/dark-mode-switch.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/button.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <script>
+      var content = document.getElementById('content');
+      var loading = document.getElementById('loading');
+      window.addEventListener('load',function(){
+        loading.style.display = "none";
+        content.style.display = "block";
+      });
+      
+      AOS.init({
+          duration: 1500,
+      });
+    </script>
+
+<script>
+  // fungsi untuk menampilkan popup
+  function showPopup() {
+    // menampilkan popup menggunakan sweetalert
+    swal({
+      imageUrl: "giphy.gif",
+      imageWidth: 150,
+      imageHeight: 150,
+      title: "Hai Kamu",
+      text: "Terima Kasih Sudah Berkunjung Yah!",
+      Color: "#FFFFFF",
+      background: "rgba(252, 237, 214)",
+    }).then(function() {
+      // event listener pada tombol "OK" pada popup
+      var audio = new Audio('mc.mp3');
+      audio.loop = true;
+      audio.play();
+    });
+  }
+
+  // atur waktu tampilan popup dalam milidetik (1000 ms = 1 detik)
+  var popupDelay = 10; // 5 detik
+        
+  // atur event yang memicu tampilan popup
+  window.onload = function() {
+    setTimeout(function() {
+      showPopup();
+    }, popupDelay);
+  }
+</script>
+
+  </body>
+</html>
